@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2 - Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seja bem-vindo(a) !</h1>
+    <section>
+        <div>
+        <p>Ano de nascimento (seu ou de outra pessoa) :</p>
+        <input type="number" id = "ano_nasc"  placeholder="Digite o ano : "> 
+        <p>Sexo :
+            <input type="radio" id = "id_masc" name="radsex" >
+            <label for="id_masc">Masculino</label>
+
+            <input type="radio" id = "id_fem" name="radsex">
+            <label for="id_fem">Feminino</label>
+        </p>
+        
+        <input type="button" id= "btnIdade" value="Verificar" onclick="verificar()" >
+
+        <div id="foto"></div>
+
+    </div>
+    
+    <div id="res">
+        <p>Preencha os campos acima para ter o resultado !</p>
+    </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+    <footer>
+        <p> <i>@ LFC. Direitos Reservados</i></p>
+    </footer>
+</body>
+</html>

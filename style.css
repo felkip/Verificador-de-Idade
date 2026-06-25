@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(33, 119, 148);
+    align-items: center;
+}
+
+section{
+    border-radius:  30px;
+    background-color: rgb(117, 39, 185);
+    border-width:small;
+    padding: 15px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+#foto{
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+#foto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
